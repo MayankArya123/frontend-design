@@ -1,0 +1,184 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.brand-name h4{
+    padding: 0.7em 0;
+    color: #A4A6B3;
+
+}
+
+
+.align{
+    margin-left:0.7rem;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.align .info{
+    margin-left: 1rem;
+}
+
+.table-header {
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+.table-box .small{
+font-size: 0.7rem;
+}
+
+p{
+    margin-bottom: 0;
+}
+
+.table-box{
+  border:  1px solid #DFE0EB;
+  border-radius: 8px;
+}
+
+.logo{
+    margin: 0 0.3em;
+}
+
+.tool{
+    margin: 0 0.3em;
+}
+
+.profile-img{
+    width: 2rem;
+    height: 2rem;
+    background: pink;
+}
+
+.main .header .second-half{
+    width: 25%;
+}
+
+.sidebar{
+background:#363740;
+width: 20%;
+height: 100vh;
+}
+
+.sidebar .links{
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    padding: 0.6em 0;
+    cursor: pointer;
+}
+
+.link .logo{
+    background: white;
+    width: 30px;
+    height: 30px;
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
+
+.sidebar .heading{
+    color: white;
+}
+
+.main{
+    width: 80%;
+    padding-left: 2%;
+    padding-right:2% ;
+    padding-top: 0.6em;
+    /* background: #E5E5E5 */
+}
+
+.main .image-box{
+    /* background: blue; */
+    width: 40px;
+    height: 40px;
+    border-radius:50% ;
+}
+
+.main .image-box img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.red{
+background: red !important;
+border-radius: 5px;
+padding: 0.1em 0.2em;
+color: white;
+}
+
+.blue{
+background: green !important;
+color: white;
+border-radius: 5px;
+padding: 0.1em 0.2em;
+}
+
+.orange{
+background: orange !important;
+color: white;
+border-radius: 5px;
+padding: 0.1em 0.2em;
+}
+
+/* RESPONSIVE */
+
+
+@media screen  and (max-width:768px)  {
+
+
+    .dashboard-wrapper{
+
+        flex-direction: column;
+    }
+
+    .sidebar{
+        width: 80%;
+         /* margin: auto; */
+        }
+
+        .main{
+            width: 100%;
+        }
+
+        .main .header .heading.second-half {
+           flex-direction: column;
+        }
+        
+
+        .main .header .second-half{
+            width: 25%;
+        }
+
+    
+}
+
+/* @media screen  and (max-width:768px) and  (min-width:425px) {
+
+   
+    .main .header .heading.second-half {
+        flex-direction: column;
+     }
+
+     
+.sidebar{
+    width: 30%;
+    }
+
+    .main{
+        width: 70%;
+    }
+
+    
+} */
